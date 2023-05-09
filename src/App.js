@@ -1,23 +1,19 @@
-import React from 'react';
-import './App.css';
-
-
-
+import React from "react";
+import "./App.css";
 
 function App() {
-return (
-  <div className='game-block'>
-    <div className="dino"></div>
-    <div className="cactus"></div> 
-    <div className="game"></div>  
-  </div>
-)
-
+  return (
+    <div className="game">
+      <div className="dino"></div>
+      <div className="cactus"></div>
+    </div>
+  );
 }
 
 export default App;
 
-{/* document.addEventListener("keydown", function(event) {
+{
+  /* document.addEventListener("keydown", function(event) {
   jump();
 });
 function jump () {
@@ -42,4 +38,5 @@ return (
   <div className="dino"></div>
   <div className="cactus"></div>  
 </div>
-); */}
+); */
+}
