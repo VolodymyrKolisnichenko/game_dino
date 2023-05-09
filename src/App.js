@@ -6,10 +6,10 @@ import './App.css';
 
 function App() {
 return (
-  <div>
-    <div className="game"></div>
+  <div className='game-block'>
     <div className="dino"></div>
-    <div className="cactus"></div>
+    <div className="cactus"></div> 
+    <div className="game"></div>  
   </div>
 )
 

@@ -1,7 +1,10 @@
 .game {
+  display: flex;
   width: 600px;
-  height: 200px;
+  height: 150px;
   border-bottom: solid 1px black;
+  /* top: -1px; */
+  position: relative;
   margin: auto;
 }
 .dino {
@@ -10,24 +13,31 @@
   background-image: url(img/pngwing.com.png);
   background-size: 50px 50px;
   position: relative;
+  left: -280px;
   top: 150px;
+  margin: auto;
 }
 .cactus {
   width: 20px;
   height: 40px;
   background-image: url(img/toppng.com-cactus-of-mexico-svg-png-icon-free-download-cactus-black-546x980.png);
   background-size: 20px 40px;
-  position: relative;
-  top: 110px;
-  left: 580px;
-  animation: cactusMov 2s infinite linear;
+  position: absolute;
+  top: 160px;
+  right: 680px;
+  animation: cactusMov 3s infinite linear;
+  /* margin: auto; */
 }
+/* .game-block{
+  display: flex;
+  justify-content: space-around;
+} */
 @keyframes cactusMov {
   0% {
-      left: 580px;
+      left: 1280px;
   }
   100% {
-      left: -20px;
+      left: 420px;
   }
 } 
 .jump {
