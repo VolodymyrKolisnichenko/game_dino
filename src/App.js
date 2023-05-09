@@ -1,42 +1,60 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "./App.css";
 
 function App() {
+  const dinoRef = useRef();
+  const cactusRef = useRef();
+  const [score, setScore] = useState(0);
+
+  
+  const jump = () => {
+    if (!!dinoRef.current && dinoRef.current.classList !== "jump") {
+      dinoRef.current.classList.add("jump");
+      setTimeout(function () {
+        dinoRef.current.classList.remove("jump");
+      }, 300);
+    }
+  };
+
+  
+  useEffect(() => {
+    const isAlive = setInterval(function () {
+      
+      const dinoTop = parseInt(
+        getComputedStyle(dinoRef.current).getPropertyValue("top")
+      );
+
+     
+      let cactusLeft = parseInt(
+        getComputedStyle(cactusRef.current).getPropertyValue("left")
+      );
+
+     
+      if (cactusLeft < 40 && cactusLeft > 0 && dinoTop >= 140) {
+        
+        alert("Game Over! Your Score : " + score);
+        setScore(0);
+      } else {
+        setScore(score + 1);
+      }
+    }, 10);
+
+    return () => clearInterval(isAlive);
+  });
+
+  
+  useEffect(() => {
+    document.addEventListener("keydown", jump);
+    return () => document.removeEventListener("keydown", jump);
+  }, []);
+
   return (
     <div className="game">
-      <div className="dino"></div>
-      <div className="cactus"></div>
+      Score : {score}
+      <div className="dino" ref={dinoRef}></div>
+      <div className="cactus" ref={cactusRef}></div>
     </div>
   );
 }
 
 export default App;
-
-{
-  /* document.addEventListener("keydown", function(event) {
-  jump();
-});
-function jump () {
-  if (dino.classList !="jump") {
-      dino.classList.add("jump")
-  }
-  setTimeout(function() {
-      dino.classList.remove("jump")
-  }, 300)
-}
-let isAlive = setInterval (function() {
-  let dinoTop = parseInt (window.getComputedStyle(dino).getPropertyValue("top"));
-  let cactusLeft = parseInt (window.getComputedStyle(cactus).getPropertyValue("left"));
-
-  if (cactusLeft < 50 && cactusLeft > 0 && dinoTop >=140) {
-      alert ("GAME OVER!!")
-  }
-}, 10)
-
-return (
-  <div className="game">
-  <div className="dino"></div>
-  <div className="cactus"></div>  
-</div>
-); */
-}
