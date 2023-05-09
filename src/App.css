@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+.game {
+  width: 600px;
+  height: 200px;
+  border-bottom: solid 1px black;
+  margin: auto;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.dino {
+  width: 50px;
+  height: 50px;
+  background-image: url(img/pngwing.com.png);
+  background-size: 50px 50px;
+  position: relative;
+  top: 150px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.cactus {
+  width: 20px;
+  height: 40px;
+  background-image: url(img/toppng.com-cactus-of-mexico-svg-png-icon-free-download-cactus-black-546x980.png);
+  background-size: 20px 40px;
+  position: relative;
+  top: 110px;
+  left: 580px;
+  animation: cactusMov 2s infinite linear;
+}
+@keyframes cactusMov {
+  0% {
+      left: 580px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  100% {
+      left: -20px;
   }
-  to {
-    transform: rotate(360deg);
+} 
+.jump {
+  animation: jump 0.3s linear;
+}
+@keyframes jump {
+  0% {
+      top: 150px;
+  }
+  30% {
+      top: 120px;
+  }
+  50% {
+      top: 100px;
+  }
+  80% {
+      top: 120px;
+  }
+  100% {
+      top: 150px;
   }
 }
