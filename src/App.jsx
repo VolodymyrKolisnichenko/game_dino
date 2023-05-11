@@ -48,6 +48,7 @@ function App() {
     return () => document.removeEventListener("keydown", jump);
   }, []);
 
+ 
   return (
     <div className="game">
       Score : {score}
