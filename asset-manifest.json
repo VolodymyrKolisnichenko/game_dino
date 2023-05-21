@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.093a481f.css",
-    "main.js": "/my-app/static/js/main.69a0c56b.js",
-    "static/js/787.f41762d8.chunk.js": "/my-app/static/js/787.f41762d8.chunk.js",
-    "static/media/pngwing.com.png": "/my-app/static/media/pngwing.com.d2ebee76ba9c10476638.png",
-    "index.html": "/my-app/index.html",
-    "main.093a481f.css.map": "/my-app/static/css/main.093a481f.css.map",
-    "main.69a0c56b.js.map": "/my-app/static/js/main.69a0c56b.js.map",
-    "787.f41762d8.chunk.js.map": "/my-app/static/js/787.f41762d8.chunk.js.map"
+    "main.css": "/game-dino/static/css/main.a34d7b73.css",
+    "main.js": "/game-dino/static/js/main.8fb00e35.js",
+    "static/js/787.f41762d8.chunk.js": "/game-dino/static/js/787.f41762d8.chunk.js",
+    "static/media/pngwing.com.png": "/game-dino/static/media/pngwing.com.d2ebee76ba9c10476638.png",
+    "index.html": "/game-dino/index.html",
+    "main.a34d7b73.css.map": "/game-dino/static/css/main.a34d7b73.css.map",
+    "main.8fb00e35.js.map": "/game-dino/static/js/main.8fb00e35.js.map",
+    "787.f41762d8.chunk.js.map": "/game-dino/static/js/787.f41762d8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.093a481f.css",
-    "static/js/main.69a0c56b.js"
+    "static/css/main.a34d7b73.css",
+    "static/js/main.8fb00e35.js"
   ]
 }
