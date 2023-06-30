@@ -1,4 +1,4 @@
-Dino Game
+<h2>Dino Game</h2>
 <img src="./src/img/dino-game-Big.jpg"/>
 This is a web-based game project inspired by the popular Chrome browser's offline dinosaur game. The game is built using HTML, CSS, and JavaScript, providing an enjoyable and addictive gaming experience.
 
