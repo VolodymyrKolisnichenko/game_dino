@@ -1,9 +1,9 @@
 <h2>Dino Game</h2>
-<img src="./src/img/dino-game-Big.jpg"/>
+<img src="./src/img/dino-game-Big.jpg" alt="dino-game"/>
 This is a web-based game project inspired by the popular Chrome browser's offline dinosaur game. The game is built using HTML, CSS, and JavaScript, providing an enjoyable and addictive gaming experience.
 
 Live Demo
-A live demo of the game can be accessed here. <span> <a href="https://volodymyrkolisnichenko.github.io/game-dino/" target="game-dino"> here. </span>
+A live demo of the game can be accessed here. <span> <a href="https://volodymyrkolisnichenko.github.io/game-dino/" target="_blank"> here. </span>
 
 Gameplay
 In this game, players control a running dinosaur and need to navigate it through a never-ending desert landscape while avoiding obstacles such as cacti. The goal is to achieve the highest possible score by covering the maximum distance without colliding with any obstacles.
@@ -44,4 +44,4 @@ Acknowledgments
 This game was inspired by the Chrome dinosaur game and aims to recreate its fun and addictive experience. Thank you to all the open-source contributors whose libraries and resources were used in this project.
 
 Contact
-For any questions, feedback, or inquiries, please contact  <span> <a href="https://volodymyrkolisnichenko.github.io" target="_blank"> Volodymyr Kolisnichenko.</span>
+For any questions, feedback, or inquiries, please contact  <span> <a href="https://github.com/VolodymyrKolisnichenko" target="_blank"> Volodymyr Kolisnichenko.</span>
