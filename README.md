@@ -44,4 +44,4 @@ Acknowledgments
 This game was inspired by the Chrome dinosaur game and aims to recreate its fun and addictive experience. Thank you to all the open-source contributors whose libraries and resources were used in this project.
 
 Contact
-For any questions, feedback, or inquiries, please contact  <span> <a href="https://volodymyrkolisnichenko.github.io" target="VolodymyrKolisnichenko"> Volodymyr Kolisnichenko.</span>
+For any questions, feedback, or inquiries, please contact  <span> <a href="https://volodymyrkolisnichenko.github.io" target="_blank"> Volodymyr Kolisnichenko.</span>
