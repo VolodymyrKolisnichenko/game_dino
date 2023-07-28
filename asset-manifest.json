@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/game-dino/static/css/main.7cc230d9.css",
-    "main.js": "/game-dino/static/js/main.2c80f58c.js",
+    "main.css": "/game-dino/static/css/main.41d8a8f6.css",
+    "main.js": "/game-dino/static/js/main.ee76dd66.js",
     "static/js/787.f41762d8.chunk.js": "/game-dino/static/js/787.f41762d8.chunk.js",
     "static/media/pngwing.com.png": "/game-dino/static/media/pngwing.com.d2ebee76ba9c10476638.png",
     "static/media/cloud-3.png": "/game-dino/static/media/cloud-3.1f94372911c70e720b0b.png",
     "index.html": "/game-dino/index.html",
-    "main.7cc230d9.css.map": "/game-dino/static/css/main.7cc230d9.css.map",
-    "main.2c80f58c.js.map": "/game-dino/static/js/main.2c80f58c.js.map",
+    "main.41d8a8f6.css.map": "/game-dino/static/css/main.41d8a8f6.css.map",
+    "main.ee76dd66.js.map": "/game-dino/static/js/main.ee76dd66.js.map",
     "787.f41762d8.chunk.js.map": "/game-dino/static/js/787.f41762d8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7cc230d9.css",
-    "static/js/main.2c80f58c.js"
+    "static/css/main.41d8a8f6.css",
+    "static/js/main.ee76dd66.js"
   ]
 }
