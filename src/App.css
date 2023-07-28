@@ -22,7 +22,44 @@
   left: 580px;
   animation: cactusMov 3s infinite linear;
 }
+.cloud {
+  width: 40px;
+  height: 40px;
+  background-image: url(img/cloud-3.png);
+  background-size: 40px 40px;
+  position: relative;
+  top: -20px;
+  left: 580px;
+  animation: cactusMov 12s infinite linear;
+}
+.cloud-2 {
+  width: 40px;
+  height: 40px;
+  background-image: url(img/cloud-3.png);
+  background-size: 40px 40px;
+  position: relative;
+  top: -20px;
+  left: 580px;
+  animation: cactusMov 9s infinite ease-in;
+}
+.sun {
+  width: 40px;
+  height: 40px;
+  background-image: url(img/s2.png);
+  background-size: 40px 40px;
+  position: relative;
+  top: -120px;
+  left: 480px;
+}
 @keyframes cactusMov {
+  0% {
+      left: 580px;
+  }
+  100% {
+      left: -20px;
+  }
+} 
+@keyframes cloudMov {
   0% {
       left: 580px;
   }

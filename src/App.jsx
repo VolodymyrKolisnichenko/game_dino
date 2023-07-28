@@ -6,6 +6,7 @@ function App() {
   const [isJumping, setIsJumping] = useState(false);
   const dinoRef = useRef();
   const cactusRef = useRef();
+  const cloudRef = useRef();
   const [score, setScore] = useState(0);
 
 
@@ -30,13 +31,16 @@ function App() {
         getComputedStyle(dinoRef.current).getPropertyValue("top")
       );
 
-
       let cactusLeft = parseInt(
         getComputedStyle(cactusRef.current).getPropertyValue("left")
       );
 
+      let cloudLeft = parseInt(
+        getComputedStyle(cloudRef.current).getPropertyValue("left")
+      );
 
-      if (cactusLeft < 40 && cactusLeft > 0 && dinoTop >= 140) {
+
+      if (cactusLeft < 40 && cactusLeft > 0 && dinoTop >= 140 && cloudLeft) {
 
         alert("Game Over! Your Score : " + score);
         setScore(0);
@@ -64,6 +68,9 @@ function App() {
       Score : {score}
       <div className="dino" ref={dinoRef}></div>
       <div className="cactus" ref={cactusRef}></div>
+      <div className="cloud" ref={cloudRef}></div>
+      <div className="cloud-2" ref={cloudRef}></div>
+      <div className="sun" ></div>
     </div>
   );
 }
