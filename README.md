@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+<h2>Dino Game</h2>
+<img src="./src/img/dino-game-Big.jpg" alt="dino-game"/>
+This is a web-based game project inspired by the popular Chrome browser's offline dinosaur game. The game is built using HTML, CSS, and JavaScript, providing an enjoyable and addictive gaming experience.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2>Live Demo</h2>
+A live demo of the game can be accessed here. <span> <a href="https://volodymyrkolisnichenko.github.io/game-dino/" target="_blank"> here. </span>
 
-## Available Scripts
+<h2>Gameplay</h2>
+In this game, players control a running dinosaur and need to navigate it through a never-ending desert landscape while avoiding obstacles such as cacti. The goal is to achieve the highest possible score by covering the maximum distance without colliding with any obstacles.
 
-In the project directory, you can run:
+<h2>Features</h2>
+Simple and addictive gameplay.<br>
+Responsive design for compatibility with different screen sizes.<br>
+Increasing difficulty level as the game progresses.<br>
+Score tracking to monitor the player's performance.<br>
+Interactive animations and visual effects for an engaging experience.<br>
 
-### `npm start`
+<h2>Technologies Used</h2>
+HTML: Markup language for creating the structure and content of the game.<br>
+CSS: Stylesheets for defining the visual appearance and layout of the game.<br>
+JavaScript: Programming language used for game logic and interactivity.<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<h2>Usage</h2>
+To play the game locally, follow these steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<h3>Clone the repository:</h3>
+git clone https://github.com/volodymyrkolisnichenko/game-dino.git
 
-### `npm test`
+<h3>Navigate to the project directory:</h3>
+cd game-dino
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h3>Open index.html in your web browser to start the game.</h3>
 
-### `npm run build`
+<h2>Contributing</h2>
+Contributions are welcome! If you would like to contribute to the project, please follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h2>Fork the repository.</h2>
+Create a new branch for your feature or bug fix.<br>
+Make your modifications.<br>
+Commit and push your changes.<br>
+Submit a pull request explaining the changes you made.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<h2>Acknowledgments</h2>
+This game was inspired by the Chrome dinosaur game and aims to recreate its fun and addictive experience. Thank you to all the open-source contributors whose libraries and resources were used in this project.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<h2>Contact</h2>
+For any questions, feedback, or inquiries, please contact  <span> <a href="https://github.com/VolodymyrKolisnichenko" target="_blank"> Volodymyr Kolisnichenko.</span>
