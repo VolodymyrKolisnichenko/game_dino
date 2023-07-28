@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import "./App.css";
 
 function App() {
-  
+
   const [isJumping, setIsJumping] = useState(false);
   const dinoRef = useRef();
   const cactusRef = useRef();
