@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState, useCallback } from "react";
 import "./App.css";
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
   const [score, setScore] = useState(0);
 
 
-  const jump = () => {
+  const jump = useCallback(() => {
     if (!isJumping) {
       setIsJumping(true);
       if (!!dinoRef.current && dinoRef.current.classList !== "jump") {
@@ -21,7 +21,7 @@ function App() {
         }, 300);
       }
     }
-  };
+  }, [isJumping]);
 
 
   useEffect(() => {
@@ -50,7 +50,7 @@ function App() {
     }, 10);
 
     return () => clearInterval(isAlive);
-  });
+  }, [score, jump]);
 
 
   useEffect(() => {
@@ -60,7 +60,7 @@ function App() {
       document.removeEventListener("keydown", jump);
       document.removeEventListener("touchstart", jump);
     };
-  }, []);
+  }, [jump]);
 
 
   return (
